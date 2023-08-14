@@ -1,0 +1,21 @@
+{
+  "name": "Highlighter Friend",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "permissions": ["activeTab", "scripting","storage"],
+  "action": {},
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Q",
+        "mac": "Command+Q"
+      }
+    }
+  },
+  "icons": {
+    "128": "icon128.png"
+  }
+}

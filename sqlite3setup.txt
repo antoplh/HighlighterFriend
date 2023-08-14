@@ -1,0 +1,13 @@
+# PRIMERO ACCEDE AL DIRECTORIO DONDE QUIERAS CREAR LA BASE en el CMD
+
+sqlite3 mydatabase.db
+
+CREATE TABLE data (
+   id INTEGER PRIMARY KEY,
+   url TEXT,
+   domain TEXT,
+   highlighted TEXT,
+   timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+.exit
